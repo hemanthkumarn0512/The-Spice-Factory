@@ -1,0 +1,315 @@
+*{
+    margin: 0px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.nav{
+    height: 60px;
+    width: 100%;
+    /* background-color: black; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+}
+.logo img{
+    height: 60px;
+    width:80px;
+    margin: 7px 0px 7px 5px;
+}
+.nav-items{
+    word-spacing: 50px;
+}
+.nav-items a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 5px;
+    color: whitesmoke;
+}
+.nav-items:hover a{
+    filter: blur(2px);
+}
+.nav-items a:hover{
+    color:bisque;
+    font-weight: 600;
+    transform: scale(1.8);
+    
+    font-size: 25px;
+    filter: blur(0px);
+   }
+   .nav-items button:hover{
+    color: white;
+    background-color: black;
+   }
+   .nav-items button{
+    font-size: 20px;
+    border: 3px solid;
+    padding: 8px 20px;
+    border-radius: 5px;
+    color: black;
+   }
+   .home img{
+    /* height: 580px; */
+    background-image: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,.1)),url("table.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 100vh;
+}
+#coverpage{
+    filter: blur(1.6px);
+-webkit-filter: blur(1.6px); 
+   }
+   .box h1{
+    color:bisque;
+    text-shadow: burlywood 2px 3px;
+    font-size: 60px;
+    font-weight:950;
+   
+    position: relative;
+    top: -620px;
+    margin-left: 450px;
+   }
+   .box h2{
+    color:coral;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-size: 20px;
+    font-weight: 950;
+    text-shadow: black 4px 2px;
+    position: relative;
+    top: -620px;
+    margin-left: 580px;
+   }
+   .box span{
+    font-size: 80px;
+    color: red;
+   }
+
+   #food1{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -680px;
+    left: 30px;
+   }
+   #food2{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -580px;
+    left: 130px;
+   }
+   #food3{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -580px;
+    left: 240px;
+   }
+   #food4{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -580px;
+    left: 350px;
+   }
+   #food5{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    position: relative;
+    top: -680px;
+    left: 450px;
+   }
+   .home a{
+    position: relative;
+    color:azure;
+    font-size: 25px;
+    left:-400px;
+    top: -520px;
+    font-weight: 700;
+   }
+   .home a:hover{
+    color:darkgray;
+    text-decoration: underline;
+   }
+
+   .about{
+    height: 100vb;
+    width: 100%;
+    background-color: black;
+    position: relative;
+    margin-top: -350px;
+   }
+   .about h1{
+    font-size: 40px;
+    color: antiquewhite;
+    position: relative;
+    top: 90px;
+   }
+   .abtimg .img1{
+    height: 500px;
+    width: 350px;
+    position: relative;
+    top: 130px;
+    left: 50px;
+   }
+   .abtimg .img2{
+    height: 400px;
+    width: 400px;
+    position: relative;
+    top: 80px;
+    left: 90px;
+   }
+   .foodex{
+    height: 400px;
+    width: 450px;
+    color: white;
+    position: relative;
+    top: -350px;
+    left: 950px;
+   }
+   .foodex h1{
+    position: relative;
+    top: 0px;
+    
+   }
+   .foodex p{
+    position: relative;
+    top: 50px;
+    text-align: justify;
+    font-size: 20px;
+   }
+   .foodex h2{
+    position: relative;
+    top: 80px;
+   }
+   .foodex span{
+    color: red;
+    font-size: 55px;
+   }
+   .feedback{
+    height: 100vb;
+    width: 100%;
+    background-color: black;
+    }
+    .cont{
+    height: 500px;
+    width: 600px;
+    position: relative;
+    top: 50px;
+    }
+    
+    .cont input{
+    height: 40px;
+    width: 500px;
+    display: block;
+    margin: 30px;
+    font-size: 20px;
+    border-radius: 20px;
+    }
+    .cont h2{
+    position: relative;
+    top: 25px;
+    color:darksalmon;
+    font-size: 45px;
+    text-shadow: wheat 2px 0px;
+    }
+    textarea{
+    position: relative;
+    left: 30px;
+    height: 200px;
+    width: 600px;
+    font-size: 20px;
+    border-radius: 20px;
+    }
+    .cont button{
+    position: relative;
+    left: 200px;
+    padding: 5px 20px;
+    border-radius: 20px;
+    background-color: darkgray;
+    font-size: 25px;
+    }
+    .cont button:hover{
+    color:darkred;
+    background-color: whitesmoke;
+    }
+    .super img{
+    height: 500px;
+    width: 500px;
+    position: relative;
+    left: 850px;
+    top: -350px;
+    }
+    .food{
+        height: 100vb;
+        width: 100%;
+        background-color: black;
+    }
+    .food img{
+        height:250px ;
+        width: 310px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .food .food-container{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        position: relative;
+        top: 120px;
+        align-items: center;
+        justify-content: space-around;
+    }
+  
+    .food img:hover{
+transform: scale(1.2);
+}
+.food h1{
+color: antiquewhite;
+position: relative;
+top: 100px;
+}
+.food span{
+color: red;
+font-size: 50px;
+}
+.contacts{
+    height: 100vb;
+    width: 100%;
+    background-color:black;
+    color: white;
+}
+.contacts .icons{
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    top: 320px;
+}
+.contacts i{
+    font-size:60px;
+    color: whitesmoke;
+}
+.contacts h1{
+    position: relative;
+    top: 100px;
+}
+.contacts li{
+    position: relative;
+    top: 150px;
+    margin-left: 80px;
+    font-size: 30px;
+}

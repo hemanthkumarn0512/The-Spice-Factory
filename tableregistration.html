@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px;
+        }
+        body{
+            background-image: url("menu-back.avif");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .nav{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .logo img{
+            height: 60px;
+            position: relative;
+            right: 320px;
+        }
+        .nav-item a{
+            font-size: 25px;
+            text-decoration: none;
+            color: antiquewhite;
+            font-weight: 600;
+        }
+        .form{
+            height: 600px;
+            width: 70%;
+            /* background-color: yellow; */
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            position: relative;
+            left: 180px;
+            color: bisque;
+            font-size: 30px;
+            font-weight: 600;
+        }
+        .form input{
+            font-size: 25px;
+        }
+        .form button{
+            padding: 10px 25px;
+            font-size: 15px;
+            font-weight: 400;
+            letter-spacing: 2px;
+            border: white solid 2px;
+            border-radius: 10px;
+            background-color: black;
+            color: ivory;
+            }
+        .form button:hover{
+            color: black;
+            background-color: white;
+            border: black solid 2px;
+        }
+        h1{
+            color:bisque;
+    text-shadow: burlywood 2px 3px;
+    font-size: 60px;
+    font-weight:950;
+    margin-left: 400px;
+    }
+   span{
+    font-size: 80px;
+    color: red;
+   }
+    </style>
+</head>
+<body>
+    <div class="nav">
+        <div class="logo">
+            <img src="logo.jfif" alt="">
+        </div>
+        <div class="nav-item">
+            <a href="index.html">Go To Home Page</a>
+        </div>
+    </div>
+    <h1><span>T</span>HE <span>S</span>PICE <span>F</span>ACTORY</h1>
+    <div class="form">
+        <table cellpadding="15px" cellspacing="5px" >
+        <form action="index.html">
+            <tr>
+           <td> <label for="">Name </label></td>
+           <td>: <input type="text"></td>
+            </tr>
+            <tr>
+            <td><label for="">Contact No </label></td>
+            <td>: <input type="text"></td>
+            </tr>
+            <tr>
+            <td><label for="">E-Mail </label></td>
+            <td>: <input type="text"></td>
+            </tr>
+            <tr>
+            <td><label for="">Date </label></td>
+            <td>: <input type="date" name="" id=""></td>
+            </tr>
+            <tr>
+            <td><label for="">Time </label></td>
+            <td>: <input type="time" name="" id=""></td>
+            </tr>
+            <tr>
+            <td><label for="">No.Of Persons </label></td>
+            <td>: <input type="number" name="" id=""></td>
+            </tr>
+            <tr>
+                <td colspan="2"  style="text-align: center;"><button type="submit">Reserve Table</button></td>
+                <td ></td>
+            </tr>
+        </form>
+        </table>
+    </div>
+</body>
+</html>

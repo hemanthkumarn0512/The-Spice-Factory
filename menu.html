@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENUCARD</title>
+    <style>
+        html{
+            scroll-behavior: smooth;
+        }
+        .menu-nav h1{
+            color: white;
+            text-align: center;
+            font-size: 30px;
+        }
+        .menu-nav h1:hover{
+            color:burlywood;
+        }
+        .menu-nav{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            position: fixed;
+            z-index: 100;
+        }
+        .menu-nav a{
+            color: wheat;
+            font-size: 25px;
+            text-decoration: none;
+        }
+        .menu-nav:hover a{
+        filter: blur(2px);
+        }
+        .menu-nav a:hover{
+        color:bisque;
+        font-weight: 600;
+        transform: scale(1.2);
+            
+        font-size: 25px;
+        filter: blur(0px);
+        }
+        body{
+            background-image: url("menu-back.avif");
+            background-size: cover;
+            background-attachment: fixed;
+        }
+        .staters{
+            height: 100vb;
+            width: 100%;
+            position: relative;
+        }
+        .staters .staters-items{
+            height: 520px;
+            width: 70%;
+            background-color: aliceblue;
+            opacity: 0.4;
+            position: relative;
+            top: 150px;
+            left: 220px;
+        }
+        .staters-items h3{
+            font-size: 25px;
+            margin-left: 80px;
+        }
+        .staters a{
+            margin-left: 600px;
+            font-size: 25px;
+            color:red;
+            font-weight: 600;
+            text-decoration: none;
+            border: black solid 2px;
+            padding: 5px 20px;
+            border-radius: 5px;
+            background-color: thistle;
+        }
+    </style>
+</head>
+<body >
+    <div class="menu-nav">
+        <h1>THE SPICE FACTORY MENU....</h1>
+        <a href="index.html">HOME</a>
+        <a href="#stat">STATERS</a>
+        <a href="#mc">MAIN COURSES</a>
+        <a href="#drk">DRINKS</a>
+        <a href="#des">DESSERTS</a>
+    </div>
+    <div class="staters" id="stat">
+        <div class="staters-items" >
+            <h1 style="text-align: center; color: red; font-weight: 600;">STATERS........</h1><br>
+            <h3>Spring Roll...................................................... &#8377;140</h3>
+            <h3>LollyPop Dry................................................... &#8377;160</h3>
+            <h3>Paneer Tikka................................................... &#8377;160</h3>
+            <h3>Mushroom Manchurian................................. &#8377;180</h3>
+            <h3>Paneer Munchurian........................................ &#8377;190</h3>
+            <h3>BabyCorn Salt Pepper.................................... &#8377;150</h3>
+            <h3>Cheese Pakoda................................................. &#8377;90</h3>
+            <a href="tableregistration.html">Book Table</a>
+        </div>
+    </div>
+
+    <div class="staters" id="mc">
+        <div class="staters-items" >
+            <h1 style="text-align: center; color: red; font-weight: 600;">MAIN COURSES........</h1><br>
+            <h3>Dal Fry............................................................... &#8377;200</h3>
+            <h3>Dal Tadka.......................................................... &#8377;220</h3>
+            <h3>Veg Kolhapuri................................................... &#8377;210</h3>
+            <h3>Paneer Butter Masala....................................... &#8377;250</h3>
+            <h3>Kaju Masala...................................................... &#8377;220</h3>
+            <h3>Mix Veg Masala................................................ &#8377;200</h3>
+            <h3>Chana Masala................................................... &#8377;190</h3>
+            <a href="tableregistration.html">Book Table</a>
+        </div>
+    </div>
+
+    <div class="staters" id="drk">
+        <div class="staters-items" >
+            <h1 style="text-align: center; color: red; font-weight: 600;">DRINKS........</h1><br>
+            <h3>Mango Lassi...................................................... &#8377;90</h3>
+            <h3>Sweet Lassi........................................................ &#8377;80</h3>
+            <h3>Salt Lassi........................................................... &#8377;80</h3>
+            <h3>Fresh Soda....................................................... &#8377;110</h3>
+            <h3>Lemon Soda.................................................... &#8377;120</h3>
+            <h3>Rose Soda........................................................ &#8377;100</h3>
+            <h3>Mineral Water................................................. &#8377;40</h3>
+            <a href="tableregistration.html">Book Table</a>
+        </div>
+    </div>
+
+    <div class="staters" id="des">
+        <div class="staters-items" >
+            <h1 style="text-align: center; color: red; font-weight: 600;">DESSERTS........</h1><br>
+            <h3>Chocolate Fudge Brownie...................................................... &#8377;140</h3>
+            <h3>Nutella Brownie...................................................................... &#8377;160</h3>
+            <h3>Cheese Cake Brownie............................................................ &#8377;160</h3>
+            <h3>Dutch Tuffle Cake.................................................................. &#8377;180</h3>
+            <h3>Pineapple Cream Cake......................................................... &#8377;190</h3>
+            <h3>Balck Forest Cake................................................................. &#8377;150</h3>
+            <h3>Chocolate Mousse................................................................. &#8377;90</h3>
+            <a href="tableregistration.html">Book Table</a>
+        </div>
+    </div>
+</body>
+</html>
